@@ -9,38 +9,63 @@
 </head>
 
 <body>
-    <p>Praticando um pouco mais</p>
-    <h2> O que represenda a letra <b>M</b> e a letra <b>U</b> ao lado do nome do arquivo</h2>
-    <ul>
-        <li>M: A letra M representa o estado Modified, do português modificado. Isso significa que o arquivo já existia
-            no
-            repositório, mas que recebeu alguma modificação que ainda não foi registrada no Git.</li>
-        <li>U: A letra U representa o estado Untracked, do português não rastreado. Isso significa que o arquivo ainda
-            não
-            existia no repositório e que ainda não teve seu registro (commit) feito no Git.</li>
-    </ul>
+    <!-- Sinalizações em arquivos VSCode -->
+    <section>
+        <h2> O que represenda a letra <b>M</b> e a letra <b>U</b> ao lado do nome do arquivo</h2>
+        <ul>
+            <li>M: A letra M representa o estado Modified, do português modificado. Isso significa que o arquivo já
+                existia
+                no
+                repositório, mas que recebeu alguma modificação que ainda não foi registrada no Git.</li>
+            <li>U: A letra U representa o estado Untracked, do português não rastreado. Isso significa que o arquivo
+                ainda
+                não
+                existia no repositório e que ainda não teve seu registro (commit) feito no Git.</li>
+        </ul>
+    </section>
 
-    <h2>Git commit</h2>
-    <p>O comando git commit é usado para registrar as alterações feitas em seus arquivos no repositório Git. <br>
-        Cada commit representa um ponto na história do seu projeto e inclui as alterações feitas desde o último commit.
-        Ao fazer um commit, você está criando uma "captura" das alterações no seu projeto, tornando-as permanentes no
-        histórico. <br>
-        Todo commit conta um um id único e traz uma referência aos commits anteriores. Assim, através dessa cadeia de commits, o Git registra um histórico completo de todos os commits realizados no repositório.</p>
-    <h3>Sintaxe</h3>
-    <p>git commit -m "Mensagem do commit"
-    </p>
-    <h3>Mensagem no commit</h3>
-    <ul>
-        <li>
-            Devem ser simples e objetivas, garanta que suas mensagens de commit tenham clareza e sejam suficientemente descritivas
-        </li>
-        <li>Mantenha a mensagem curta e concisa: A primeira linha da mensagem deve conter, no máximo, 72 caracteres</li>
-        <li>Uso de verbo no infinitivo(adicionar, corrigir, atualizar)</li>
-        <li>Evite detalhes técnicos: Não inclua detalhes técnicos complexos na mensagem de commit. Esses detalhes podem ser adicionados nos comentários de código ou na documentação.</li>
-    </ul>
-    <h3>Quando usar Git commit?</h3>
-    <p>O comando git commit é usado quando você deseja salvar as alterações feitas em seus arquivos e registrar essas mudanças como um novo ponto na história do seu projeto. <br>
-        Você deve usar git commit após realizar alterações nos seus arquivos e adicionar essas alterações ao "index" (também conhecido como "staging area") usando o comando git add.</p>
+    <!-- Git Commit -->
+    <section>
+        <h2>Git commit</h2>
+        <p>O comando git commit é usado para registrar as alterações feitas em seus arquivos no repositório Git. <br>
+            Cada commit representa um ponto na história do seu projeto e inclui as alterações feitas desde o último
+            commit.
+            Ao fazer um commit, você está criando uma "captura" das alterações no seu projeto, tornando-as permanentes
+            no
+            histórico. <br>
+            Todo commit conta um um id único e traz uma referência aos commits anteriores. Assim, através dessa cadeia
+            de commits, o Git registra um histórico completo de todos os commits realizados no repositório.</p>
+        <h3>Sintaxe</h3>
+        <p>git commit -m "Mensagem do commit"
+        </p>
+        <h3>Mensagem no commit</h3>
+        <ul>
+            <li>
+                Devem ser simples e objetivas, garanta que suas mensagens de commit tenham clareza e sejam
+                suficientemente descritivas
+            </li>
+            <li>Mantenha a mensagem curta e concisa: A primeira linha da mensagem deve conter, no máximo, 72 caracteres
+            </li>
+            <li>Uso de verbo no infinitivo(adicionar, corrigir, atualizar)</li>
+            <li>Evite detalhes técnicos: Não inclua detalhes técnicos complexos na mensagem de commit. Esses detalhes
+                podem ser adicionados nos comentários de código ou na documentação.</li>
+        </ul>
+        <h3>Quando usar Git commit?</h3>
+        <p>O comando git commit é usado quando você deseja salvar as alterações feitas em seus arquivos e registrar
+            essas mudanças como um novo ponto na história do seu projeto. <br>
+            Você deve usar git commit após realizar alterações nos seus arquivos e adicionar essas alterações ao "index"
+            (também conhecido como "staging area") usando o comando git add.</p>
+    </section>
+    <!-- Git Add -->
+    <section>
+        <h2>Git add</h2>
+        <p>O comando git add é utilizado para adicionar alterações realizadas nos arquivos do seu projeto ao "staging area". <br>
+        o "staging area" é uma área intermediária onde você prepara as alterações que deseja incluir no próximo commit.</p>
+        <ul>
+            <li>git add nome_do_arquivo: adiciona somente o arquivo fornecido</li>
+            <li>git add . : adiciona todas alterações</li>
+        </ul>
+    </section>
 </body>
 
 </html>
