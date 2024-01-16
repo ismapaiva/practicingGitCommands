@@ -1,3 +1,14 @@
 body{
     background-color: #f3f3f3;
+    font-family: 'Courier New', Courier, monospace;
+}
+section{
+    margin-left: 1rem;
+}
+h2{
+    font-size: 2rem;
+    margin-left: -.5rem;
+}
+h3{
+    text-decoration:underline;
 }
