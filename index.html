@@ -61,9 +61,23 @@
         <h2>Git add</h2>
         <p>O comando git add é utilizado para adicionar alterações realizadas nos arquivos do seu projeto ao "staging area". <br>
         o "staging area" é uma área intermediária onde você prepara as alterações que deseja incluir no próximo commit.</p>
+        <h3>Sintaxe</h3>
         <ul>
             <li>git add nome_do_arquivo: adiciona somente o arquivo fornecido</li>
             <li>git add . : adiciona todas alterações</li>
+        </ul>
+    </section>
+    <!-- Git Pull -->
+    <section>
+        <h2>Git Pull</h2>
+        <p>O comando git pull é utilizado para buscar as alterações mais recentes de um repositório remoto e integrá-las automaticamente à sua branch local. <br>
+            O git pull é útil para manter a sua branch local atualizada com as alterações feitas por outros colaboradores no repositório remoto. Entretanto, é importante estar ciente de que, em alguns casos, pode haver conflitos durante o processo de mesclagem. <br> 
+            Nesse caso, o Git pode solicitar que você resolva os conflitos manualmente antes de concluir o processo de pull.
+        </p>
+        <h3>Sintaxe</h3>
+        <ul>
+            <li>git pull origin NOME_DA_BRANCH: Isso faz o download das alterações da branch NOME_DA_BRANCH do repositório remoto chamado origin (o padrão para o repositório remoto principal) e as mescla automaticamente com a sua branch local.</li>
+            <li>git pull: Se você estiver trabalhando em uma branch local e deseja trazer as alterações da branch remota correspondente para a sua branch local, você pode simplesmente executar:</li>
         </ul>
     </section>
 </body>
